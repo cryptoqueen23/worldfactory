@@ -1,0 +1,690 @@
+{
+  "version": "iwsdk.scene.v1",
+  "units": "meters",
+  "player": {
+    "transform": {
+      "position": [
+        0,
+        0,
+        4.8
+      ]
+    }
+  },
+  "components": {
+    "com.iwsdk.components.DomeGradient": {
+      "sky": [
+        0.11,
+        0.2,
+        0.17,
+        1
+      ],
+      "equator": [
+        0.16,
+        0.25,
+        0.21,
+        1
+      ],
+      "ground": [
+        0.07,
+        0.11,
+        0.09,
+        1
+      ],
+      "intensity": 1
+    },
+    "com.iwsdk.components.IBLGradient": {
+      "sky": [
+        0.82,
+        0.86,
+        0.76,
+        1
+      ],
+      "equator": [
+        0.45,
+        0.6,
+        0.5,
+        1
+      ],
+      "ground": [
+        0.19,
+        0.26,
+        0.22,
+        1
+      ],
+      "intensity": 0.8
+    }
+  },
+  "resources": {},
+  "nodes": [
+    {
+      "id": "gallery",
+      "name": "gallery",
+      "content": {
+        "type": "asset",
+        "asset": "gallery-shell"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ]
+      },
+      "components": {
+        "LocomotionEnvironment": {}
+      }
+    },
+    {
+      "id": "signature-portal",
+      "name": "signature-portal",
+      "content": {
+        "type": "asset",
+        "asset": "signature-portal"
+      },
+      "transform": {
+        "position": [
+          2.9,
+          0,
+          -9
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ]
+      },
+      "components": {}
+    },
+    {
+      "id": "centerpiece",
+      "name": "centerpiece",
+      "content": {
+        "type": "asset",
+        "asset": "focal-sculpture"
+      },
+      "transform": {
+        "position": [
+          -2.5,
+          0,
+          -5.8
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ]
+      },
+      "components": {}
+    },
+    {
+      "id": "brand",
+      "name": "brand",
+      "content": {
+        "type": "asset",
+        "asset": "showroom-signage"
+      },
+      "transform": {
+        "position": [
+          -3.8,
+          4.7,
+          -14.95
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ]
+      },
+      "components": {}
+    },
+    {
+      "id": "exhibit-panel",
+      "name": "exhibit-panel",
+      "content": {
+        "type": "asset",
+        "asset": "exhibit-panel"
+      },
+      "transform": {
+        "position": [
+          0,
+          1.4,
+          -2.6
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ]
+      },
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "id": "portal-preview",
+      "name": "portal-preview",
+      "content": {
+        "type": "asset",
+        "asset": "portal-preview"
+      },
+      "transform": {
+        "position": [
+          2.9,
+          1.6,
+          -5.3
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ]
+      },
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "id": "signature-label",
+      "name": "signature-label",
+      "content": {
+        "type": "asset",
+        "asset": "portal-label"
+      },
+      "transform": {
+        "position": [
+          2.9,
+          1.25,
+          -8.45
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ]
+      },
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "id": "exhibit-0",
+      "name": "exhibit-0",
+      "content": {
+        "type": "asset",
+        "asset": "exhibit-threshold"
+      },
+      "transform": {
+        "position": [
+          -6,
+          0,
+          -1
+        ],
+        "rotationDeg": [
+          0,
+          35,
+          0
+        ]
+      },
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "id": "exhibit-label-0",
+      "name": "exhibit-label-0",
+      "content": {
+        "type": "asset",
+        "asset": "portal-label"
+      },
+      "transform": {
+        "position": [
+          -5.552610379646184,
+          0.51,
+          -0.3610614054545864
+        ],
+        "rotationDeg": [
+          0,
+          35,
+          0
+        ]
+      },
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "id": "exhibit-1",
+      "name": "exhibit-1",
+      "content": {
+        "type": "asset",
+        "asset": "exhibit-terraces"
+      },
+      "transform": {
+        "position": [
+          -6.8,
+          0,
+          -5
+        ],
+        "rotationDeg": [
+          0,
+          55,
+          0
+        ]
+      },
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "id": "exhibit-label-1",
+      "name": "exhibit-label-1",
+      "content": {
+        "type": "asset",
+        "asset": "portal-label"
+      },
+      "transform": {
+        "position": [
+          -6.1610614054545865,
+          0.51,
+          -4.552610379646184
+        ],
+        "rotationDeg": [
+          0,
+          55,
+          0
+        ]
+      },
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "id": "exhibit-2",
+      "name": "exhibit-2",
+      "content": {
+        "type": "asset",
+        "asset": "exhibit-orbit"
+      },
+      "transform": {
+        "position": [
+          -6.4,
+          0,
+          -9
+        ],
+        "rotationDeg": [
+          0,
+          35,
+          0
+        ]
+      },
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "id": "exhibit-label-2",
+      "name": "exhibit-label-2",
+      "content": {
+        "type": "asset",
+        "asset": "portal-label"
+      },
+      "transform": {
+        "position": [
+          -5.952610379646185,
+          0.51,
+          -8.361061405454587
+        ],
+        "rotationDeg": [
+          0,
+          35,
+          0
+        ]
+      },
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "id": "exhibit-3",
+      "name": "exhibit-3",
+      "content": {
+        "type": "asset",
+        "asset": "exhibit-threshold"
+      },
+      "transform": {
+        "position": [
+          -6,
+          0,
+          -12.6
+        ],
+        "rotationDeg": [
+          0,
+          15,
+          0
+        ]
+      },
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "id": "exhibit-label-3",
+      "name": "exhibit-label-3",
+      "content": {
+        "type": "asset",
+        "asset": "portal-label"
+      },
+      "transform": {
+        "position": [
+          -5.798121144820033,
+          0.51,
+          -11.846577855494527
+        ],
+        "rotationDeg": [
+          0,
+          15,
+          0
+        ]
+      },
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "id": "exhibit-4",
+      "name": "exhibit-4",
+      "content": {
+        "type": "asset",
+        "asset": "exhibit-terraces"
+      },
+      "transform": {
+        "position": [
+          6,
+          0,
+          -1
+        ],
+        "rotationDeg": [
+          0,
+          -35,
+          0
+        ]
+      },
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "id": "exhibit-label-4",
+      "name": "exhibit-label-4",
+      "content": {
+        "type": "asset",
+        "asset": "portal-label"
+      },
+      "transform": {
+        "position": [
+          5.552610379646184,
+          0.51,
+          -0.3610614054545864
+        ],
+        "rotationDeg": [
+          0,
+          -35,
+          0
+        ]
+      },
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "id": "exhibit-5",
+      "name": "exhibit-5",
+      "content": {
+        "type": "asset",
+        "asset": "exhibit-orbit"
+      },
+      "transform": {
+        "position": [
+          6.8,
+          0,
+          -5
+        ],
+        "rotationDeg": [
+          0,
+          -55,
+          0
+        ]
+      },
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "id": "exhibit-label-5",
+      "name": "exhibit-label-5",
+      "content": {
+        "type": "asset",
+        "asset": "portal-label"
+      },
+      "transform": {
+        "position": [
+          6.1610614054545865,
+          0.51,
+          -4.552610379646184
+        ],
+        "rotationDeg": [
+          0,
+          -55,
+          0
+        ]
+      },
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "id": "exhibit-6",
+      "name": "exhibit-6",
+      "content": {
+        "type": "asset",
+        "asset": "exhibit-threshold"
+      },
+      "transform": {
+        "position": [
+          7,
+          0,
+          -9
+        ],
+        "rotationDeg": [
+          0,
+          -40,
+          0
+        ]
+      },
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "id": "exhibit-label-6",
+      "name": "exhibit-label-6",
+      "content": {
+        "type": "asset",
+        "asset": "portal-label"
+      },
+      "transform": {
+        "position": [
+          6.498625664444499,
+          0.51,
+          -8.402485334367197
+        ],
+        "rotationDeg": [
+          0,
+          -40,
+          0
+        ]
+      },
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "id": "exhibit-7",
+      "name": "exhibit-7",
+      "content": {
+        "type": "asset",
+        "asset": "exhibit-terraces"
+      },
+      "transform": {
+        "position": [
+          -1.8,
+          0,
+          -12.7
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ]
+      },
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "id": "exhibit-label-7",
+      "name": "exhibit-label-7",
+      "content": {
+        "type": "asset",
+        "asset": "portal-label"
+      },
+      "transform": {
+        "position": [
+          -1.8,
+          0.51,
+          -11.92
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ]
+      },
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "id": "exhibit-8",
+      "name": "exhibit-8",
+      "content": {
+        "type": "asset",
+        "asset": "exhibit-orbit"
+      },
+      "transform": {
+        "position": [
+          7,
+          0,
+          -12.7
+        ],
+        "rotationDeg": [
+          0,
+          -20,
+          0
+        ]
+      },
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "id": "exhibit-label-8",
+      "name": "exhibit-label-8",
+      "content": {
+        "type": "asset",
+        "asset": "portal-label"
+      },
+      "transform": {
+        "position": [
+          6.733224288205978,
+          0.51,
+          -11.96703975578699
+        ],
+        "rotationDeg": [
+          0,
+          -20,
+          0
+        ]
+      },
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "id": "key-light",
+      "transform": {
+        "position": [
+          -4,
+          6,
+          2
+        ],
+        "rotationDeg": [
+          -48,
+          -28,
+          0
+        ]
+      },
+      "components": {
+        "com.iwsdk.components.DirectionalLight": {
+          "color": [
+            1,
+            0.9,
+            0.72,
+            1
+          ],
+          "intensity": 2.4,
+          "castShadow": false
+        }
+      }
+    },
+    {
+      "id": "fill-light",
+      "components": {
+        "com.iwsdk.components.AmbientLight": {
+          "color": [
+            0.6,
+            0.78,
+            0.69,
+            1
+          ],
+          "intensity": 0.35
+        }
+      }
+    }
+  ],
+  "authoring": {
+    "views": [
+      {
+        "id": "hero",
+        "role": "hero",
+        "projection": "perspective",
+        "position": [
+          0,
+          2,
+          4.8
+        ],
+        "target": [
+          0,
+          2.1,
+          -7
+        ],
+        "fov": 58
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+<div id="surface" style="width: 130; background-color: #e8e6d7; padding: 7; border-radius: 3; flex-direction: column; gap: 4">
+  <div id="availability" style="font-size: 4; color: #295846">DESTINATION PREVIEW</div>
+  <div id="title" style="font-size: 8; font-weight: 700; color: #132e22">Destination</div>
+  <div id="summary" style="font-size: 4; color: #284537">Select a destination.</div>
+  <div id="message" style="font-size: 3.5; color: #284537">Preview only.</div>
+  <button id="inspect" style="font-size: 4; padding: 4; background-color: #244c3e; color: #ffffff">Inspect destination exhibit</button>
+  <button id="back" style="font-size: 4; padding: 4; background-color: #244c3e; color: #ffffff">Back to showroom</button>
+</div>

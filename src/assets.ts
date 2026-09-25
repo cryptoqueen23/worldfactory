@@ -6,6 +6,9 @@
  */
 
 import { AssetType, defineAssets } from '@iwsdk/core';
+import { galleryShell, portalFrame, centerpiece, exhibitThreshold, exhibitTerraces, exhibitOrbit } from './scene-assets/gallery.scene-asset';
+import { signaturePortal } from './scene-assets/signature-portal.scene-asset';
+import { focalSculpture } from './scene-assets/focal-sculpture.scene-asset';
 
 const publicAssetUrl = (filePath: string): string =>
   `${import.meta.env.BASE_URL}${filePath.replace(/^\/+/u, '')}`;
@@ -22,6 +25,18 @@ function stockAssetUrl(assetId: string, fileName: string): string {
 }
 
 export default defineAssets({
+  'signature-portal': signaturePortal,
+  'focal-sculpture': focalSculpture,
+  'exhibit-threshold': exhibitThreshold,
+  'exhibit-terraces': exhibitTerraces,
+  'exhibit-orbit': exhibitOrbit,
+  'showroom-signage': { url: publicAssetUrl('ui/showroom-signage.uikitml'), type: AssetType.UIKitML },
+  'portal-preview': { url: publicAssetUrl('ui/portal-preview.uikitml'), type: AssetType.UIKitML },
+  'gallery-shell': galleryShell,
+  'portal-frame': portalFrame,
+  centerpiece,
+  'exhibit-panel': { url: publicAssetUrl('ui/exhibit.uikitml'), type: AssetType.UIKitML },
+  'portal-label': { url: publicAssetUrl('ui/portal-label.uikitml'), type: AssetType.UIKitML },
   'environment-desk': {
     url: stockAssetUrl('environment-desk', 'environmentDesk.gltf'),
     type: AssetType.GLTF,
@@ -44,6 +59,7 @@ export default defineAssets({
     url: publicAssetUrl('ui/welcome.uikitml'),
     type: AssetType.UIKitML,
     name: 'Welcome Panel',
+    priority: 'lazy',
   },
   'webxr-banner': {
     url: publicAssetUrl('gltf/webxr-banner/banner.gltf'),

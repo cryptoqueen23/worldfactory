@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@iwsdk/core/dist/schemas/iwsdk-project.v1.schema.json",
   "version": "iwsdk.project.v1",
-  "scene": "./public/scenes/main.iwsdk.scene.json",
+  "scene": "./public/scenes/exhibit-gallery.iwsdk.scene.json",
   "assets": {
     "module": "./src/assets"
   },
@@ -11,7 +11,7 @@
   "world": {
     "xr": {
       "mode": "vr",
-      "offer": "always",
+      "offer": "none",
       "features": {
         "handTracking": true
       }
@@ -24,20 +24,23 @@
       "far": 200,
       "camera": {
         "position": [
-          -4,
-          1.5,
-          -6
+          0,
+          1.7,
+          0
         ],
         "lookAt": [
           0,
-          1.1,
-          -1.8
+          1.7,
+          -5
         ]
       }
     },
     "features": {
       "locomotion": {
-        "useWorker": true
+        "useWorker": true,
+        "slidingSpeed": 2,
+        "enableJumping": false,
+        "comfortAssist": 0.35
       },
       "grabbing": true,
       "physics": false,

@@ -7,9 +7,10 @@
 
 import { iwsdkDev } from '@iwsdk/vite-plugin-dev';
 import { defineConfig } from 'vite';
+import { siteHtml } from './build/site-html';
 
 export default defineConfig({
-  plugins: [iwsdkDev()],
+  plugins: [siteHtml(), iwsdkDev()],
   server: { host: '0.0.0.0', port: 8081, open: false },
   build: {
     outDir: 'dist',

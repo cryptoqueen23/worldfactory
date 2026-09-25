@@ -1,0 +1,263 @@
+{
+  "recipe": "ImmersiveWebsiteRecipe",
+  "schemaVersion": "0.1",
+  "site": {
+    "id": "world-factory",
+    "title": "World Factory",
+    "description": "Immersive experiences for web, mobile and XR.",
+    "language": "en"
+  },
+  "theme": {
+    "background": "#111918",
+    "surface": "#1c2926",
+    "text": "#f1eee5",
+    "accent": "#d8b982",
+    "onAccent": "#111918",
+    "focus": "#f3cc86"
+  },
+  "navigation": [
+    {
+      "id": "capabilities",
+      "label": "Capabilities",
+      "destination": {
+        "kind": "section",
+        "sectionId": "capabilities"
+      }
+    },
+    {
+      "id": "approach",
+      "label": "Our approach",
+      "destination": {
+        "kind": "section",
+        "sectionId": "approach"
+      }
+    },
+    {
+      "id": "contact",
+      "label": "Let’s connect",
+      "destination": {
+        "kind": "section",
+        "sectionId": "contact"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "hero",
+      "title": "Immersive experiences for web, mobile and XR.",
+      "paragraphs": [
+        "A new dimension for your ideas. Thoughtfully designed digital places that connect people, businesses, and possibility."
+      ],
+      "actionIds": [
+        "discover"
+      ]
+    },
+    {
+      "id": "capabilities",
+      "title": "One foundation. Many possibilities.",
+      "paragraphs": [
+        "Explore the capabilities taking shape at World Factory. The website experience is live; the other exhibits describe future demonstrations."
+      ],
+      "experienceIds": [
+        "immersive-websites",
+        "virtual-storefronts",
+        "virtual-chamber",
+        "immersive-publications",
+        "architecture-remodeling",
+        "immersive-media",
+        "events-meetings",
+        "ai-guided-worlds",
+        "ar-mr"
+      ]
+    },
+    {
+      "id": "approach",
+      "title": "Built around people. Designed for possibility.",
+      "paragraphs": [
+        "An immersive experience begins with a useful website. Essential information stays accessible, on the devices people already use.",
+        "One content foundation connects the conventional website, interactive 3D, and XR. Reusable recipes make each experience adaptable without starting over."
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Let’s imagine what comes next.",
+      "paragraphs": [
+        "Have a place, a story, or an idea worth exploring? Let’s talk about what an immersive experience could make possible."
+      ],
+      "actionIds": [
+        "contact-phone",
+        "return-capabilities"
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "immersive-websites",
+      "title": "Immersive Websites",
+      "summary": "A website you can step inside. Explore a shared story across accessible web pages, interactive 3D, and XR.",
+      "paragraphs": [
+        "This showcase demonstrates the first reusable ImmersiveWebsiteRecipe: one content source, an accessible website, and a small interactive showroom."
+      ],
+      "status": "demonstration"
+    },
+    {
+      "id": "virtual-storefronts",
+      "title": "Virtual Storefronts",
+      "summary": "Spaces that bring products into context. A future direction for discovery, comparison, and virtual retail.",
+      "paragraphs": [
+        "This is a capability concept, not a working application. The exhibit previews a future direction; no transactions, accounts, live sessions, or AI services are active."
+      ],
+      "status": "coming-soon"
+    },
+    {
+      "id": "virtual-chamber",
+      "title": "Virtual Chamber",
+      "summary": "Connected places for local businesses and communities. A future home for introductions and shared opportunity.",
+      "paragraphs": [
+        "This is a capability concept, not a working application. The exhibit previews a future direction; no transactions, accounts, live sessions, or AI services are active."
+      ],
+      "status": "coming-soon"
+    },
+    {
+      "id": "immersive-publications",
+      "title": "Immersive Publications",
+      "summary": "Stories with a sense of place. An exploration of how articles, magazines, and news could become spatial experiences.",
+      "paragraphs": [
+        "This is a capability concept, not a working application. The exhibit previews a future direction; no transactions, accounts, live sessions, or AI services are active."
+      ],
+      "status": "coming-soon"
+    },
+    {
+      "id": "architecture-remodeling",
+      "title": "Architecture & Remodeling",
+      "summary": "See the possibilities before they are built. A future direction for architectural and remodeling visualization.",
+      "paragraphs": [
+        "This is a capability concept, not a working application. The exhibit previews a future direction; no transactions, accounts, live sessions, or AI services are active."
+      ],
+      "status": "coming-soon"
+    },
+    {
+      "id": "immersive-media",
+      "title": "Immersive Media",
+      "summary": "Look beyond the frame. A future collection of 360 imagery, spatial media, and immersive storytelling.",
+      "paragraphs": [
+        "This is a capability concept, not a working application. The exhibit previews a future direction; no transactions, accounts, live sessions, or AI services are active."
+      ],
+      "status": "coming-soon"
+    },
+    {
+      "id": "events-meetings",
+      "title": "Events & Meetings",
+      "summary": "Places to come together. A future direction for virtual gatherings, meetings, and live experiences.",
+      "paragraphs": [
+        "This is a capability concept, not a working application. The exhibit previews a future direction; no transactions, accounts, live sessions, or AI services are active."
+      ],
+      "status": "coming-soon"
+    },
+    {
+      "id": "ai-guided-worlds",
+      "title": "AI-Guided Worlds",
+      "summary": "Guidance that belongs in the experience. A future direction for helpful, contextual AI companions.",
+      "paragraphs": [
+        "This is a capability concept, not a working application. The exhibit previews a future direction; no transactions, accounts, live sessions, or AI services are active."
+      ],
+      "status": "coming-soon"
+    },
+    {
+      "id": "ar-mr",
+      "title": "AR / MR",
+      "summary": "Digital ideas in the physical world. A future exploration of augmented and mixed reality.",
+      "paragraphs": [
+        "This is a capability concept, not a working application. The exhibit previews a future direction; no transactions, accounts, live sessions, or AI services are active."
+      ],
+      "status": "coming-soon"
+    }
+  ],
+  "portals": [
+    {
+      "id": "portal-immersive-websites",
+      "experienceId": "immersive-websites",
+      "availability": "available"
+    },
+    {
+      "id": "portal-virtual-storefronts",
+      "experienceId": "virtual-storefronts"
+    },
+    {
+      "id": "portal-virtual-chamber",
+      "experienceId": "virtual-chamber"
+    },
+    {
+      "id": "portal-immersive-publications",
+      "experienceId": "immersive-publications"
+    },
+    {
+      "id": "portal-architecture-remodeling",
+      "experienceId": "architecture-remodeling"
+    },
+    {
+      "id": "portal-immersive-media",
+      "experienceId": "immersive-media"
+    },
+    {
+      "id": "portal-events-meetings",
+      "experienceId": "events-meetings"
+    },
+    {
+      "id": "portal-ai-guided-worlds",
+      "experienceId": "ai-guided-worlds"
+    },
+    {
+      "id": "portal-ar-mr",
+      "experienceId": "ar-mr"
+    }
+  ],
+  "media": [],
+  "actions": [
+    {
+      "id": "contact-phone",
+      "label": "Call 512-387-2748",
+      "destination": {
+        "kind": "url",
+        "href": "tel:+15123872748"
+      },
+      "emphasis": "primary"
+    },
+    {
+      "id": "discover",
+      "label": "Discover the possibilities",
+      "destination": {
+        "kind": "section",
+        "sectionId": "capabilities"
+      },
+      "emphasis": "secondary"
+    },
+    {
+      "id": "return-capabilities",
+      "label": "Explore our capabilities",
+      "destination": {
+        "kind": "section",
+        "sectionId": "capabilities"
+      },
+      "emphasis": "primary"
+    }
+  ],
+  "presentation": {
+    "immersive": {
+      "enabled": true,
+      "layout": "exhibit-gallery",
+      "portalOrder": [
+        "portal-immersive-websites",
+        "portal-virtual-storefronts",
+        "portal-virtual-chamber",
+        "portal-immersive-publications",
+        "portal-architecture-remodeling",
+        "portal-immersive-media",
+        "portal-events-meetings",
+        "portal-ai-guided-worlds",
+        "portal-ar-mr"
+      ],
+      "signaturePortalId": "portal-immersive-websites"
+    }
+  }
+}

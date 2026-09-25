@@ -7,5 +7,6 @@
 
 import { defineComponents } from '@iwsdk/core';
 import { Robot } from './robot-component.js';
+import { Portal, ShowroomState, AmbientMotion } from './engine-adapters/iwsdk/portal-component';
 
-export default defineComponents([Robot]);
+export default defineComponents([Robot, Portal, ShowroomState, AmbientMotion]);

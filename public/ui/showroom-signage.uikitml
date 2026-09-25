@@ -1,0 +1,4 @@
+<div style="width: 520; flex-direction: column; gap: 12">
+  <div id="brand" style="font-size: 48; font-weight: 700; color: #e9ddbd; letter-spacing: 1">SHOWROOM</div>
+  <div id="tagline" style="font-size: 9; color: #b9d0c1">A space for possibility</div>
+</div>

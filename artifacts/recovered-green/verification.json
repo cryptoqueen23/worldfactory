@@ -1,0 +1,22 @@
+{
+  "url": "http://127.0.0.1:8092/",
+  "root": "C:\\Users\\insur\\CWorldFactory\\recovered-green-experience",
+  "missingHtmlReferences": [],
+  "website": {
+    "title": "World Factory",
+    "heading": "Immersive experiences for web, mobile and XR.",
+    "background": "rgb(17, 25, 24)",
+    "cards": 9,
+    "canvasCount": 0
+  },
+  "showroom": {
+    "status": "Showroom ready. Select a portal or use the capability controls. XR is unavailable in this browser; all content remains accessible here.",
+    "canvasCount": 1,
+    "nextSelection": "Virtual Storefronts",
+    "reentry": "Showroom ready. Select a portal or use the capability controls. XR is unavailable in this browser; all content remains accessible here."
+  },
+  "errors": [],
+  "failedRequests": [],
+  "httpErrors": [],
+  "externalResources": []
+}
