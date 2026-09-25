@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#050505" />
+  <meta name="description" content="World Factory creates immersive experiences for web, mobile and XR." />
+  <title>World Factory | Immersive Web, Mobile & XR</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="./site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="World Factory home">
+      <svg class="brand-phoenix" viewBox="0 0 100 100" aria-hidden="true">
+        <path d="M50 10c5 15 14 20 27 22-7 5-11 11-12 18 9-4 17-3 25 1-13 6-20 15-23 28-5-7-10-11-17-14-7 3-12 7-17 14-3-13-10-22-23-28 8-4 16-5 25-1-1-7-5-13-12-18 13-2 22-7 27-22Z"/>
+        <path d="M50 31c-3 10-8 18-16 25 7-2 12-1 16 3 4-4 9-5 16-3-8-7-13-15-16-25Zm0 30c5 7 7 15 0 28-7-13-5-21 0-28Z"/>
+      </svg>
+      <span><strong>WORLD</strong> FACTORY</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <a href="#capabilities">Capabilities</a>
+      <a href="#approach">Our approach</a>
+      <a href="#contact">Let's connect</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Independent thinking. Immersive possibilities.</p>
+        <h1 id="hero-title">Immersive experiences<br><span>for web, mobile & XR.</span></h1>
+        <p class="hero-text">World Factory builds cinematic digital spaces that begin as great websites and expand into interactive 3D and immersive experiences.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="../">Enter Immersive Experience <span aria-hidden="true">↗</span></a>
+          <a class="button button-ghost" href="#capabilities">Discover the possibilities</a>
+        </div>
+        <p class="device-note">One identity. Every screen. XR when you want it.</p>
+      </div>
+
+      <div class="hero-media" aria-label="World Factory promotional film">
+        <div class="phoenix-watermark" aria-hidden="true">
+          <svg viewBox="0 0 100 100">
+            <path d="M50 8c6 16 15 23 30 25-8 5-13 12-14 20 10-5 19-4 28 1-15 7-23 18-26 33-5-8-11-13-18-16-7 3-13 8-18 16-3-15-11-26-26-33 9-5 18-6 28-1-1-8-6-15-14-20 15-2 24-9 30-25Z"/>
+          </svg>
+        </div>
+        <div class="video-frame">
+          <video id="promo-video" muted loop playsinline preload="metadata" aria-describedby="video-caption">
+            <source src="./assets/world-factory-promo.mp4" type="video/mp4" />
+          </video>
+          <div class="video-fallback">
+            <span class="mini-phoenix" aria-hidden="true">◆</span>
+            <p>WORLD FACTORY</p>
+            <small>Immersive possibilities are loading.</small>
+          </div>
+          <button id="video-toggle" class="video-toggle" type="button" aria-label="Play promotional video">Play film</button>
+        </div>
+        <p id="video-caption" class="sr-only">A promotional visual for World Factory. Essential information is also available as text on this page.</p>
+      </div>
+    </section>
+
+    <section id="capabilities" class="capabilities" aria-labelledby="capabilities-title">
+      <div class="section-heading">
+        <p class="eyebrow">What we build</p>
+        <h2 id="capabilities-title">From a website<br>to a world.</h2>
+        <p>Start where your audience already is. Expand into spatial experiences when the moment calls for it.</p>
+      </div>
+      <div class="capability-grid">
+        <article class="capability featured"><span>01</span><h3>Immersive Websites</h3><p>Responsive web experiences with a direct path into interactive 3D and XR.</p><a href="../">Enter the demo <span aria-hidden="true">↗</span></a></article>
+        <article class="capability"><span>02</span><h3>Virtual Storefronts</h3><p>Products, services and brand stories presented as places worth exploring.</p></article>
+        <article class="capability"><span>03</span><h3>Virtual Chamber</h3><p>A connected business community with discovery, events and spatial destinations.</p></article>
+        <article class="capability"><span>04</span><h3>Immersive Publications</h3><p>Stories that move beyond the page into visual and spatial editorial experiences.</p></article>
+        <article class="capability"><span>05</span><h3>Architecture & Remodeling</h3><p>Explore spaces and ideas before they are built.</p></article>
+        <article class="capability"><span>06</span><h3>Immersive Media</h3><p>Video, sound and interactive media designed for presence.</p></article>
+        <article class="capability"><span>07</span><h3>Events & Meetings</h3><p>Digital spaces for gathering, presenting and collaborating.</p></article>
+        <article class="capability"><span>08</span><h3>AI-Guided Worlds</h3><p>Intelligent guides and concierges for richer interactive experiences.</p></article>
+        <article class="capability"><span>09</span><h3>AR / MR</h3><p>Experiences that bring digital content into the physical world.</p></article>
+      </div>
+    </section>
+
+    <section id="approach" class="approach" aria-labelledby="approach-title">
+      <p class="eyebrow">Our approach</p>
+      <h2 id="approach-title">The web is the front door.<br><span>Immersion is what lies beyond it.</span></h2>
+      <div class="approach-copy">
+        <p>World Factory is built around a simple idea: immersive technology should add possibilities, not barriers.</p>
+        <p>Essential content stays available on phones, tablets and computers. The same experience can open into interactive 3D and XR for visitors who want to go further.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact" aria-labelledby="contact-title">
+      <div>
+        <p class="eyebrow">Let's build something people remember</p>
+        <h2 id="contact-title">Your next website<br>doesn't have to be flat.</h2>
+      </div>
+      <div class="contact-actions">
+        <a class="button button-primary" href="tel:+15123872748">Call 512-387-2748</a>
+        <a class="button button-ghost" href="../">Explore World Factory XR</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#top"><span><strong>WORLD</strong> FACTORY</span></a>
+    <p>Immersive experiences for web, mobile and XR.</p>
+  </footer>
+</body>
+</html>
