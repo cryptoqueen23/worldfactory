@@ -24,6 +24,5 @@ node and its `PanelSystem` registration from the application entry point.
 
 - Minimal scene walkthrough: https://iwsdk.dev/guides/01b-minimal-scene.html
 - XR-enabled projects — IWER emulator controls: https://iwsdk.dev/guides/02-testing-experience.html#iwer-controls
+<!-- Cloudflare Pages deploy trigger -->
 
-
-<!-- Cloudflare Pages deploy trigger: 2026-09-25T17:20Z -->
