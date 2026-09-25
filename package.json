@@ -12,7 +12,8 @@
     "reference:warmup": "iwsdk reference warmup",
     "typecheck": "tsc --noEmit",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:site": "vite build && node scripts/build-site.mjs"
   },
   "dependencies": {
     "@iwsdk/core": "1.0.0-rc.2",
