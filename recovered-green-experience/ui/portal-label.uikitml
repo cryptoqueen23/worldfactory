@@ -1,0 +1,6 @@
+<div style="width: 100; background-color: #eae9de; border-radius: 2; padding: 5; flex-direction: column; gap: 4">
+  <div id="number" style="font-size: 4; color: #42584c">01</div>
+  <div id="title" style="font-size: 8; color: #14281e; font-weight: 700">Capability</div>
+  <div id="status" style="font-size: 3.5; color: #42584c">COMING SOON</div>
+  <button id="open" style="font-size: 4; color: #ffffff; background-color: #244c3e; padding: 3; margin-top: 3">View exhibit</button>
+</div>

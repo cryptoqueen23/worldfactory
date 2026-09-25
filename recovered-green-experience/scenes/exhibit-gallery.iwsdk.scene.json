@@ -1,0 +1,14 @@
+{
+  "version": "iwsdk.scene.v1", "units": "meters",
+  "components": {
+    "com.iwsdk.components.DomeGradient": { "sky": [0.1, 0.17, 0.14, 1], "equator": [0.2, 0.28, 0.22, 1], "ground": [0.12, 0.17, 0.13, 1], "intensity": 1 },
+    "com.iwsdk.components.IBLGradient": { "sky": [0.8, 0.85, 0.75, 1], "equator": [0.6, 0.7, 0.6, 1], "ground": [0.25, 0.32, 0.28, 1], "intensity": 1.6 }
+  },
+  "resources": {},
+  "nodes": [
+    { "id": "gallery", "name": "Gallery Architecture", "content": { "type": "asset", "asset": "gallery-shell" }, "components": { "LocomotionEnvironment": {} } },
+    { "id": "centerpiece", "name": "Sculptural Portal", "content": { "type": "asset", "asset": "centerpiece" }, "transform": { "position": [0, 0, -8.5] } },
+    { "id": "exhibit-panel", "name": "Exhibit Panel", "content": { "type": "asset", "asset": "exhibit-panel" }, "transform": { "position": [0, 1.7, -2.8] }, "components": { "RayInteractable": {} } }
+  ],
+  "authoring": { "views": [] }
+}

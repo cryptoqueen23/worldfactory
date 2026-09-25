@@ -1,0 +1,12 @@
+<div style="width: 165; background-color: #eae9de; border-radius: 4; padding: 7; flex-direction: column; gap: 3">
+  <div id="site-title" style="font-size: 4; color: #335344">SHOWROOM</div>
+  <div id="status" style="font-size: 3; color: #42584c">CAPABILITY EXHIBIT</div>
+  <div id="title" style="font-size: 7; color: #14281e; font-weight: 700">Explore the possibilities</div>
+  <div id="summary" style="font-size: 3.6; color: #233c30">Select a portal to discover more.</div>
+  <div id="details" style="font-size: 3; color: #334c40">One shared content foundation.</div>
+  <div style="flex-direction: row; gap: 3; margin-top: 3">
+    <button id="previous" style="background-color: #244c3e; color: #ffffff; padding: 3; font-size: 3.5">Previous</button>
+    <button id="next" style="background-color: #244c3e; color: #ffffff; padding: 3; font-size: 3.5">Next</button>
+    <button id="return" style="background-color: #244c3e; color: #ffffff; padding: 3; font-size: 3.5">Return to website</button>
+  </div>
+</div>
